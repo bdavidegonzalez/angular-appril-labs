@@ -3,10 +3,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
 
 ## Documentacion
-
-1.Utilice HttpClient para el consumo de servicios (mi suscribi al metodo creado para enviar los datos)
-2.Generar el formbuild de angular para generar validaciones 
-3.Utilize materialDesign para el diseño
+&nbsp;
+1.Utilice HttpClient para el consumo de servicios (mi suscribi al metodo creado para enviar los datos)&nbsp;
+2.Generar el formbuild de angular para generar validaciones &nbsp;
+3.Utilize materialDesign para el diseño&nbsp;
 
 
 
