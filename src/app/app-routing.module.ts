@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { FormComponent } from './components/form/form.component';
 
+//declaracion de la ruta home
 const routes: Routes = [
 {
   path: 'home',

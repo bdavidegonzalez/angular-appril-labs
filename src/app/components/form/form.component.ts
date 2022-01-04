@@ -10,6 +10,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class FormComponent implements OnInit {
 
+  //declarando varible vacia funto con su interfaz o dto 
   personas: Personas[] = [];
 
   form!: FormGroup;
@@ -23,6 +24,7 @@ export class FormComponent implements OnInit {
   ngOnInit() {
   }
 
+  //declaracion de builform
   private buildForm() {
     this.form = this.formBuilder.group({
       Documento:['', [Validators.required]],

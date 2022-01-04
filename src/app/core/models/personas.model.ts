@@ -1,3 +1,5 @@
+//declaracion de modelos 
+
 export interface Personas {
     IdPersona: number,
     Documento: string,
