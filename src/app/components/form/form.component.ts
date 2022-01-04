@@ -10,9 +10,9 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class FormComponent implements OnInit {
 
+  respuesta: any = [];
   //declarando varible vacia funto con su interfaz o dto 
   personas: Personas[] = [];
-
   form!: FormGroup;
 
   constructor(
@@ -42,7 +42,7 @@ export class FormComponent implements OnInit {
 
     if (this.form.valid) {
       this.personaService.createPersonas(this.form.value).subscribe(data =>{
-        console.log(data);
+        this.respuesta = data;
       });
     }
 

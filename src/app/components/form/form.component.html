@@ -1,8 +1,13 @@
 <!-- <button (click)="createPersona($event)">Crear una persona</button> -->
 <!--creacion de vista formulario basado en material design -->
+<div>
+    <mat-card-header>
+        <mat-card-title>{{respuesta}}</mat-card-title>
+    </mat-card-header>  
+</div>
 <div class="container">
     <form [formGroup]="form" (ngSubmit)="createPersona($event)">
-        <mat-card class="form__grid">
+        <mat-card>
             <mat-card-header>
                 <mat-card-title>Formulario</mat-card-title>
             </mat-card-header>
